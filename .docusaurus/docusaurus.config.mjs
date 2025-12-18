@@ -8,8 +8,8 @@ export default {
   "tagline": "Bridging the gap between the digital brain and the physical body",
   "favicon": "img/favicon.ico",
   "url": "https://github.com",
-  "baseUrl": "/physical-ai-and-humanoid-robotics/",
-  "organizationName": "Nimra Naz ",
+  "baseUrl": "/",
+  "organizationName": "Taha Ahmed",
   "projectName": "physical-ai-and-humanoid-robotics",
   "onBrokenLinks": "warn",
   "i18n": {
@@ -21,7 +21,7 @@ export default {
     "localeConfigs": {}
   },
   "customFields": {
-    "apiUrl": "https://ai-rative-book-backend-production.up.railway.app",
+    "apiUrl": "web-production-f46fe.up.railway.app",
     "apiKey": ""
   },
   "presets": [
@@ -30,7 +30,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/nimranaz148"
+          "editUrl": "https://github.com/Sid-Taha"
         },
         "blog": false,
         "theme": {
@@ -83,7 +83,7 @@ export default {
           ]
         },
         {
-          "href": "https://github.com/nimranaz148",
+          "href": "https://github.com/Sid-Taha",
           "label": "GitHub",
           "position": "right"
         }
@@ -110,12 +110,12 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Nimra GitHub",
-              "href": "https://github.com/nimranaz148"
+              "label": "Taha GitHub",
+              "href": "https://github.com/Sid-Taha"
             },
             {
               "label": "LinkedIn",
-              "href": "https://www.linkedin.com/in/nimra-naz-671ab32b9/"
+              "href": "https://www.linkedin.com/in/taha-ahmed-siddiqui-245324175/"
             }
           ]
         },
@@ -124,7 +124,7 @@ export default {
           "items": [
             {
               "label": "GitHub Repository",
-              "href": "https://github.com/nimranaz148"
+              "href": "https://github.com/Sid-Taha"
             }
           ]
         }
