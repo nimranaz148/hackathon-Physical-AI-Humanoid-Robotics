@@ -5,10 +5,10 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/docs/",
+  "permalink": "/physical-ai-and-humanoid-robotics/docs/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/Sid-Taha/docs/intro.md",
+  "editUrl": "https://github.com/nimranaz148/docs/intro.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -19,10 +19,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Hardware Requirements",
-    "permalink": "/docs/hardware-requirements"
+    "permalink": "/physical-ai-and-humanoid-robotics/docs/hardware-requirements"
   },
   "next": {
     "title": "Module 1: ROS 2 Fundamentals",
-    "permalink": "/docs/category/module-1-ros-2-fundamentals"
+    "permalink": "/physical-ai-and-humanoid-robotics/docs/category/module-1-ros-2-fundamentals"
   }
 }

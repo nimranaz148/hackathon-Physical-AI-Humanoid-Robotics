@@ -4,8 +4,8 @@ import useIsBrowser from '@docusaurus/useIsBrowser';
 import { JSX } from 'react/jsx-runtime';
 
 // API Configuration
-const API_URL = 'web-production-f46fe.up.railway.app/api';
-const API_KEY = 'backend1234';
+const API_URL = 'https://web-production-f46fe.up.railway.app/api/';
+const API_KEY = 'backend1234'
 
 // Helper function for mobile-friendly fetch with timeout
 async function fetchWithTimeout(
@@ -99,7 +99,7 @@ export function AuthProvider({ children }: AuthProviderProps): JSX.Element {
     try {
       const response = await fetchWithTimeout(`${API_URL}/auth/signin`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'X-API-Key': API_KEY },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
       });
 
@@ -133,7 +133,7 @@ export function AuthProvider({ children }: AuthProviderProps): JSX.Element {
     try {
       const response = await fetchWithTimeout(`${API_URL}/auth/signup`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'X-API-Key': API_KEY },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password, name, background }),
       });
 

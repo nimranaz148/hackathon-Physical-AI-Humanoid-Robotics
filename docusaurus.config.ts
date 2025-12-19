@@ -14,7 +14,7 @@ const config: Config = {
   baseUrl: '/',
 
   // GitHub pages deployment config.
-  organizationName: 'Taha Ahmed',
+  organizationName: 'Nimra Naz ',
   projectName: 'physical-ai-and-humanoid-robotics',
 
   onBrokenLinks: 'warn',
@@ -30,8 +30,8 @@ const config: Config = {
 
   // Custom fields for API configuration (used in your hooks)
   customFields: {
-    apiUrl: process.env.REACT_APP_API_URL,
-    apiKey: process.env.REACT_APP_API_KEY,
+    apiUrl: process.env.REACT_APP_API_URL || 'https://web-production-f46fe.up.railway.app',
+    apiKey: process.env.REACT_APP_API_KEY || '',
   },
 
   presets: [
@@ -41,7 +41,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
-          editUrl: 'https://github.com/Sid-Taha',
+          editUrl: 'https://github.com/nimranaz148',
         },
         blog: false, // Blog disabled as per textbook structure
         theme: {
@@ -102,7 +102,7 @@ const config: Config = {
         },
         // GitHub link is handled via CSS in your custom theme or can be added here
         {
-          href: 'https://github.com/Sid-Taha',
+          href: 'https://github.com/nimranaz148',
           label: 'GitHub',
           position: 'right',
         },
@@ -128,12 +128,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Taha GitHub',
-              href: 'https://github.com/Sid-Taha',
+              label: 'Nimra GitHub',
+              href: 'https://github.com/nimranaz148',
             },
             {
               label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/taha-ahmed-siddiqui-245324175/',
+              href: 'https://www.linkedin.com/in/nimra-naz-671ab32b9/',
             },
           ],
         },
@@ -142,7 +142,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub Repository',
-              href: 'https://github.com/Sid-Taha',
+              href: 'https://github.com/nimranaz148',
             },
           ],
         },

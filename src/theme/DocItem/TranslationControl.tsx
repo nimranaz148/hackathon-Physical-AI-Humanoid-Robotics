@@ -4,8 +4,8 @@ import useIsBrowser from '@docusaurus/useIsBrowser';
 import { AuthContext } from '@site/src/components/AuthContext';
 import styles from './ContentControls.module.css';
 
-const API_URL = 'web-production-f46fe.up.railway.app';
-const API_KEY = 'backend1234';
+const API_URL = 'https://web-production-f46fe.up.railway.app';
+const API_KEY = 'backend1234'
 
 // Cache for translated content per page
 const translationCache = new Map<string, string>();
